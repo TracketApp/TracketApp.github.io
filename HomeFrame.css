@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+#SportsFrame{
+    width: 400px;
+    height: 300px;
+    background-color: rgb(20, 20, 20);
+    margin-left:75%;
+
+}
+
+#SportsTitle{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 83%;
+    color: white;
+}
+
+#F1BTN {
+    background-color: transparent;
+    width: 100%;
+    height: 60px;
+    border: 0px;
+    
+}
+
+#F1BTN:hover{
+    background-color:rgb(30, 30, 30) ;
+}
+
+#F1Logo {
+    margin-left: -80%;
+    margin-top: -5px;
+}
+
+#F1TEXT{
+    color: white;
+    font-size: 40px;
+    margin-top: -13%;
+}
+
+#F1ProfileFrame {
+    border: 0px;
+    width: 50%;
+    height: 90%;
+    margin-top: -15%;
+    
+}

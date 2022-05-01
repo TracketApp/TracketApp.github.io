@@ -1,0 +1,27 @@
+
+<HTML>
+    <HEAD>
+       <link rel="stylesheet" href="HomeFrame.css">
+       <TITLE>Tracket</TITLE>
+    </HEAD>
+    <BODY>
+        <div id="SportsTitle">Sports</div>
+       <div id="SportsFrame">
+           <button onclick="F1ProfileFunction()" id="F1BTN">
+                <img id="F1Logo" width="55px" height="55px" src="Imgs/F1Logo.png" alt="">
+               <div id="F1TEXT">formula 1</div>
+           </button>
+       </div>
+
+       <iframe id="F1ProfileFrame" src="F1Profile.html" frameborder="0"></iframe>
+
+       <script>
+           document.getElementById("F1ProfileFrame").hidden = true;
+           
+           function F1ProfileFunction() {
+            document.getElementById("F1ProfileFrame").hidden = false;
+           }
+       </script>
+       
+    </BODY>
+ </HTML>
